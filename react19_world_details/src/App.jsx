@@ -1,14 +1,19 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import "./App.css";
+
+import { AppLayout } from "./components/Layout/AppLayout";
+import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { Country } from "./pages/Country";
-import { Home } from "./pages/Home";
+import { ErrorPage } from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout />,
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",
@@ -23,7 +28,7 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "country",
+        path: "/country",
         element: <Country />,
       },
     ],

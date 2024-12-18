@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root {
@@ -37,12 +38,12 @@ button {
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
   color: #000;
-
+  
   &:hover {
     color: #2e86c1;
   }
@@ -78,7 +79,7 @@ button {
 /* Layout  */
 
 .container {
-  max-width: 140rem;
+  max-width: 130rem;
   margin: auto;
 }
 
@@ -124,8 +125,9 @@ nav ul {
   /* background-color: yellow; */
   gap: 3.2rem;
   color: #fff;
-
+  
   & li a {
+    text-decoration: none;
     color: #fff;
   }
 }
@@ -139,7 +141,7 @@ nav ul {
   .menu-web {
     display: none;
   }
-
+  
   .ham-menu {
     display: flex;
     justify-content: flex-end;
@@ -158,11 +160,11 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
     & li:first-child {
       margin-top: 1.2rem;
     }
-
+    
     & li:last-child {
       margin-bottom: 1.2rem;
     }
@@ -172,7 +174,7 @@ nav ul {
 /* hero section  */
 
 .hero-section .container {
-  padding: 3.2rem;
+  padding: 3.1rem;
   margin: 9rem auto;
   gap: 6.4rem;
 }
@@ -203,7 +205,7 @@ nav ul {
   .hero-content {
     order: 1;
   }
-
+  
   .container .banner-image {
     width: 80%;
     order: 0;
@@ -213,7 +215,7 @@ nav ul {
 /* About Section  */
 
 .section-about {
-  margin: 0 auto 9rem auto;
+  margin: 4rem auto 9rem auto;
 }
 
 .gradient-cards {
