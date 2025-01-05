@@ -24,7 +24,7 @@ export const About = () => {
                     {country.population}
                   </p>
                   <p>
-                    <span className="card-description">Intresting Fact: </span>I
+                    <span className="card-description">Intresting Fact: </span>
                     {country.interestingFact}
                   </p>
                 </div>
