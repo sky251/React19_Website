@@ -35,10 +35,10 @@ export const SearchFilter = ({
       />
 
       <div>
-        <button onClick={handleSortButton("asc")}>Ascending</button>
+        <button onClick={handleSortButton("asc")}>Asc</button>
       </div>
       <div>
-        <button onClick={handleSortButton("des")}>Descending</button>
+        <button onClick={handleSortButton("des")}>Des</button>
       </div>
 
       <div>
